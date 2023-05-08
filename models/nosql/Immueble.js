@@ -16,9 +16,8 @@ const InmubleScheme = new mongoose.Schema(
         },
         message: "el email ya existe",
       }
-
-
     },
+    alquilado: { type: Boolean, default: true, required: false },
     extension: {
       type: String,
     },
